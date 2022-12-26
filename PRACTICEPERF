@@ -1,3 +1,12 @@
+PROBLEM STATEMENT
+Our Chef took the above advice very seriously and decided to set a target for himself.
+
+Chef decides to solve at least 10 problems every week for 4 weeks.
+Given the number of problems he actually solved in each week over 44 weeks as P_1, P_2, P_3,P_4 ,output the number of weeks in which Chef met his target.
+
+
+CODE
+
 #include <iostream>
 using namespace std;
 int count(int arr[])
@@ -21,3 +30,6 @@ int main()
     cout<<x;
 	return 0;
 }
+
+EXPLANATION
+Input all the submissions using array. Check if each element is greater than equal to ten (if so increase count by 10). Return count.
