@@ -32,4 +32,4 @@ int main()
 }
 
 EXPLANATION
-Input all the submissions using array. Check if each element is greater than equal to ten (if so increase count by 10). Return count.
+Input all the submissions using array. Check if each element is greater than equal to ten (if so increase count by 1). Return count.
